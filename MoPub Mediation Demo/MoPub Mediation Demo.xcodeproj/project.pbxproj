@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A2D76B12669B45300186187 /* Native.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2D76B02669B45300186187 /* Native.swift */; };
+		5A2D76B32669B50000186187 /* NativeAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2D76B22669B50000186187 /* NativeAdView.swift */; };
+		5A2D76B52669B70900186187 /* NativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2D76B42669B70900186187 /* NativeAdView.xib */; };
 		5A6CD358266854CC0081E4E5 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6CD357266854CC0081E4E5 /* Banner.swift */; };
 		5A6CD35A266854DC0081E4E5 /* MRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6CD359266854DC0081E4E5 /* MRect.swift */; };
 		5A6CD35C266854EA0081E4E5 /* Interstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6CD35B266854EA0081E4E5 /* Interstitial.swift */; };
@@ -22,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		53AC90E89F70DAA2070FF49F /* Pods-MoPub Mediation Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoPub Mediation Demo.debug.xcconfig"; path = "Target Support Files/Pods-MoPub Mediation Demo/Pods-MoPub Mediation Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		5A2D76B02669B45300186187 /* Native.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native.swift; sourceTree = "<group>"; };
+		5A2D76B22669B50000186187 /* NativeAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdView.swift; sourceTree = "<group>"; };
+		5A2D76B42669B70900186187 /* NativeAdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeAdView.xib; sourceTree = "<group>"; };
 		5A3F6B2F0C710C6B4A947374 /* Pods-MoPub Mediation Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoPub Mediation Demo.release.xcconfig"; path = "Target Support Files/Pods-MoPub Mediation Demo/Pods-MoPub Mediation Demo.release.xcconfig"; sourceTree = "<group>"; };
 		5A6CD357266854CC0081E4E5 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		5A6CD359266854DC0081E4E5 /* MRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRect.swift; sourceTree = "<group>"; };
@@ -53,6 +59,8 @@
 		5A6CD35F266855020081E4E5 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				5A2D76B02669B45300186187 /* Native.swift */,
+				5A2D76B22669B50000186187 /* NativeAdView.swift */,
 				5A6CD357266854CC0081E4E5 /* Banner.swift */,
 				5A6CD359266854DC0081E4E5 /* MRect.swift */,
 				5A6CD35B266854EA0081E4E5 /* Interstitial.swift */,
@@ -61,13 +69,14 @@
 			path = Examples;
 			sourceTree = "<group>";
 		};
-		5A6CD3622668584A0081E4E5 /* Storyboards */ = {
+		5A6CD3622668584A0081E4E5 /* Storyboards and Xibs */ = {
 			isa = PBXGroup;
 			children = (
 				5ACB2C4426680A34005B8E0C /* Main.storyboard */,
 				5A6CD3602668583F0081E4E5 /* MoPubMediation.storyboard */,
+				5A2D76B42669B70900186187 /* NativeAdView.xib */,
 			);
-			path = Storyboards;
+			path = "Storyboards and Xibs";
 			sourceTree = "<group>";
 		};
 		5ACB2C3226680A34005B8E0C = {
@@ -94,7 +103,7 @@
 				5ACB2C3E26680A34005B8E0C /* AppDelegate.swift */,
 				5ACB2C4026680A34005B8E0C /* SceneDelegate.swift */,
 				5A6CD35F266855020081E4E5 /* Examples */,
-				5A6CD3622668584A0081E4E5 /* Storyboards */,
+				5A6CD3622668584A0081E4E5 /* Storyboards and Xibs */,
 				5ACB2C4726680A35005B8E0C /* Assets.xcassets */,
 				5ACB2C4926680A35005B8E0C /* LaunchScreen.storyboard */,
 				5ACB2C4C26680A35005B8E0C /* Info.plist */,
@@ -180,6 +189,7 @@
 			files = (
 				5ACB2C4B26680A35005B8E0C /* LaunchScreen.storyboard in Resources */,
 				5A6CD3612668583F0081E4E5 /* MoPubMediation.storyboard in Resources */,
+				5A2D76B52669B70900186187 /* NativeAdView.xib in Resources */,
 				5ACB2C4826680A35005B8E0C /* Assets.xcassets in Resources */,
 				5ACB2C4626680A34005B8E0C /* Main.storyboard in Resources */,
 			);
@@ -235,9 +245,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ACB2C3F26680A34005B8E0C /* AppDelegate.swift in Sources */,
+				5A2D76B12669B45300186187 /* Native.swift in Sources */,
 				5A6CD35C266854EA0081E4E5 /* Interstitial.swift in Sources */,
 				5A6CD35A266854DC0081E4E5 /* MRect.swift in Sources */,
 				5ACB2C4126680A34005B8E0C /* SceneDelegate.swift in Sources */,
+				5A2D76B32669B50000186187 /* NativeAdView.swift in Sources */,
 				5A6CD358266854CC0081E4E5 /* Banner.swift in Sources */,
 				5A6CD35E266854FA0081E4E5 /* Rewarded.swift in Sources */,
 			);

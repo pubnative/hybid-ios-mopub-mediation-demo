@@ -15,7 +15,7 @@ class Rewarded: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "MoPub Mediation Rewarded Ads"
+        navigationItem.title = "MoPub Mediation Rewarded"
     }
 
     @IBAction func loadAdTouchUpInside(_ sender: UIButton) {
