@@ -11,7 +11,7 @@ class Interstitial: UIViewController {
     @IBOutlet weak var showAdButton: UIButton!
 
     var moPubInterstitial : MPInterstitialAdController!
-    let adUnitID = "a50d6ad8b2b84ea0af8049b8dfd32126"
+    let adUnitID = "d52bc6bcca4349f19eb128b90d1b7189"
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -11,7 +11,7 @@ class Banner: UIViewController {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
 
     var moPubBanner : MPAdView!
-    let adUnitID = "8ba4f63a03da4c1ba84653c4bc66d11e"
+    let adUnitID = "239a2b76800b4fc6b63cf817eaf602d4"
 
     override func viewDidLoad() {
         super.viewDidLoad()
