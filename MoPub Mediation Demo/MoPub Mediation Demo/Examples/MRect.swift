@@ -11,7 +11,7 @@ class MRect: UIViewController {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
 
     var moPubMRect : MPAdView!
-    let adUnitID = "038dfd33ec4d4391aee61557ffd3ed8b"
+    let adUnitID = "3440fd96d2e949edb5e3a75914bc9d85"
 
     override func viewDidLoad() {
         super.viewDidLoad()
